@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-ARKitFaceTrackingTutorial/Pods-ARKitFaceTrackingTutorial-frameworks.sh
+${BUILT_PRODUCTS_DIR}/HorizontalDial/HorizontalDial.framework
+${BUILT_PRODUCTS_DIR}/IGRPhotoTweaks/IGRPhotoTweaks.framework
+${BUILT_PRODUCTS_DIR}/iOSPhotoEditor/iOSPhotoEditor.framework

@@ -1,0 +1,24 @@
+PODS:
+  - HorizontalDial (4.0)
+  - IGRPhotoTweaks (1.0.8)
+  - iOSPhotoEditor (1.0.0)
+
+DEPENDENCIES:
+  - HorizontalDial
+  - IGRPhotoTweaks
+  - iOSPhotoEditor
+
+SPEC REPOS:
+  trunk:
+    - HorizontalDial
+    - IGRPhotoTweaks
+    - iOSPhotoEditor
+
+SPEC CHECKSUMS:
+  HorizontalDial: 50b43d3d12b9024688c40633ccab46066911846f
+  IGRPhotoTweaks: e348cec1dfc7afc36ff0f10115637bc3b03836fa
+  iOSPhotoEditor: 2951f35246a31dcb428b6292248a9c065582d03e
+
+PODFILE CHECKSUM: 865d8e15ce0ed21f0f5ee5c53a7a1d1443222bfa
+
+COCOAPODS: 1.8.4

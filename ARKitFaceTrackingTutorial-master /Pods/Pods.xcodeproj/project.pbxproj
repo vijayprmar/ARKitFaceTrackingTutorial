@@ -1,0 +1,1260 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		072411FC4FFAEEC2E490EA613735B663 /* EmojisCollectionViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61E4B0AC869C950F868FA499A7859C5 /* EmojisCollectionViewDelegate.swift */; };
+		08C93F2AC0F745B61EA6DAC69F9D11A1 /* IGRPhotoTweakView+Customization.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDADBDB93A502759A13850B89A6A8730 /* IGRPhotoTweakView+Customization.swift */; };
+		091645D902937038F259C8FAF2B7EF50 /* IGRPhotoTweakView+AspectRatio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C65403B0F462504AD8C29AFB4BA9CDD /* IGRPhotoTweakView+AspectRatio.swift */; };
+		0AE0AEEEFEEAA11E273C651F44A6D339 /* IGRPhotoTweakView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DF769CB3FF99B2AF30706B536A4EBC /* IGRPhotoTweakView.swift */; };
+		0FFDF3D5E48443D8A0AB37884C4D4518 /* CropRectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BE9E793C726A772C3AC719CCB7D168 /* CropRectView.swift */; };
+		13BF7C5F6CABD0A7CAAD3766A835864D /* IGRPhotoTweakViewController+Angle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E325FAB52F4E37A09A49FC68620D89F /* IGRPhotoTweakViewController+Angle.swift */; };
+		1646CBA7CD94198FE30F2A351D51B36F /* IGRPhotoTweaks-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B8B4D01C30EF40348ED4DAD814B7F11B /* IGRPhotoTweaks-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E345E4903ED9C4CE3C07DE9451137A2 /* IGRPhotoTweakConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A69A6608337B2BDCA5ECF99600D69E /* IGRPhotoTweakConstants.swift */; };
+		22083D23B25B1FA6B6EDAE33A01F43F3 /* PhotoCropEditorBorder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A3850CA60637BA488681B150328A88D /* PhotoCropEditorBorder@2x.png */; };
+		235A229BB8420644F892B1C20AE64666 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED95B06DF1F646394FAACDD9DF4346A /* Protocols.swift */; };
+		28648F56AC8F7C73E52BDCE7C989C6EA /* IGRPhotoScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F018E826782504B89740B6905AD1E80F /* IGRPhotoScrollView.swift */; };
+		28E0558D61EC308987A46E44D3BE4041 /* IGRCropView+UITouch.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94460146036D0E57D374D9C95069D12 /* IGRCropView+UITouch.swift */; };
+		29A0AC8D25B3E9C899A7DEF3B5EF4846 /* ResizeControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C706C84953A27769D20FFB980BD7F5C /* ResizeControl.swift */; };
+		2ADCBDC301B7FACAB3ECB8E64909D96E /* UIImage+Crop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD23B7108769A8DB6649D7DA03CCA6C /* UIImage+Crop.swift */; };
+		300065A24094E2BFF26900AA06AA4831 /* Pods-ARKitFaceTrackingTutorial-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 166613AEABED3AEF66C6182722208AE7 /* Pods-ARKitFaceTrackingTutorial-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		327BFFFAD9A5560D1F249F88DA0F6973 /* IGRPhotoTweakView+Angle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30331E324D55BCB8D9E1C241074B2EFB /* IGRPhotoTweakView+Angle.swift */; };
+		341142E4E7688A1C40D0227FC3F60A19 /* EmojiCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 450D1AFBB1BF7059A52672CE368D7BD4 /* EmojiCollectionViewCell.xib */; };
+		36148101296437E3737248F388FB689B /* CropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA4C1C16A836545DD315E3F092E7EE7 /* CropView.swift */; };
+		38CA9D72FCDF0B4E397E4406ECB7598F /* IGRPhotoTweakView+UIScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6D10CDE76107CC0C1154BD0C2B2F67 /* IGRPhotoTweakView+UIScrollView.swift */; };
+		3CA4CB731B48B33258D7066628259517 /* IGRPhotoTweakView+NSLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAED910B549FDAE8BDB44FCA23514C83 /* IGRPhotoTweakView+NSLayoutConstraint.swift */; };
+		3DA4FF61A2A109229392C8E8722F193F /* HorizontalDial-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0FBAD300B2822FDF38C820E5E9E4D /* HorizontalDial-dummy.m */; };
+		3DBE13819066A7504CE1479E7C86D5B8 /* HorizontalDial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A86600506AA1FE047788FF957D1C973 /* HorizontalDial.swift */; };
+		3F666DDABDCF5D535CE2CCA0964AFB5B /* PhotoEditor+UITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FFF0750239423E4ABDE690EB7C2BC9 /* PhotoEditor+UITextView.swift */; };
+		40CB56B948982948C1B0A0E2677BADD2 /* IGRPhotoTweakViewController+PHPhotoLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B0FC4144EA4003C40DDDCDBC6986F5 /* IGRPhotoTweakViewController+PHPhotoLibrary.swift */; };
+		41313CADC06DB288067472F6891AE3F9 /* IGRPhotoTweakViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83AA5215116743A763C26C2A2CDE1AA /* IGRPhotoTweakViewController.swift */; };
+		4447BBCF5E1DA0961C8D9BC41ED03174 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50474726DC4BF1DD1A8E5A15C353B51 /* GradientView.swift */; };
+		47640703C2AAD8D80E208C6F8E06EA88 /* IGRPhotoTweakViewController+Customization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E391F41684570A10AF00E7D01D658A9 /* IGRPhotoTweakViewController+Customization.swift */; };
+		4E6DABBDFEB707A6A977F0E5822F148C /* IGRCropLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001D27197D916E848F7A839BCA8DFA2A /* IGRCropLine.swift */; };
+		5746384BE18C73F800082B9ACDE25545 /* UIView+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41513DB2B48A0168536B9BEF590B142 /* UIView+Image.swift */; };
+		588CA91FF3FA5AEA03C178E64ECCA1CC /* IGRCropView+Lines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D74B5A2F0840415DF534D89790EE97 /* IGRCropView+Lines.swift */; };
+		59EA57A68F9A1BA3B3CCBAD415A027E1 /* PhotoEditor+Crop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D77C666DF8FBD2DA155A7962D82B2C1 /* PhotoEditor+Crop.swift */; };
+		5F7548412D6299275B69CCC2FC701AC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D23849C0EFDAD41F1B3E4344797446 /* Foundation.framework */; };
+		60C437E451E2AF4757B868654BD9238E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D23849C0EFDAD41F1B3E4344797446 /* Foundation.framework */; };
+		705F6EAF45498F7F9E705BD530EA8206 /* IGRCropMaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251D32398BE5E8779445ACB5BBC56B20 /* IGRCropMaskView.swift */; };
+		75200008FB9CFEDB9A27AFC744A5B48F /* UIImage+IGRPhotoTweakExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E527FCC6FE44949D948864D29719D514 /* UIImage+IGRPhotoTweakExtension.swift */; };
+		77144B67EB37C1E46A96A4168B9BD979 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D23849C0EFDAD41F1B3E4344797446 /* Foundation.framework */; };
+		7B115EBF95F4F9CAD151E8068FD4E116 /* PhotoEditor+Controls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFCB64FF7ED3D77EEDE2B82E91CD782 /* PhotoEditor+Controls.swift */; };
+		7B312A486376B6C98811673F5714471E /* UIColor+IGRPhotoTweakExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527117326D19B3438740BBF4C5DDC893 /* UIColor+IGRPhotoTweakExtension.swift */; };
+		7C933C94BC60344EB0E9826FECEFB3B9 /* PhotoEditor+StickersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBB0D734B35521356BFCF6CE435E9EC /* PhotoEditor+StickersViewController.swift */; };
+		7D1E089EC71151D9975A62ABFB77BBB4 /* IGRPhotoTweaks.h in Headers */ = {isa = PBXBuildFile; fileRef = E0A89056B4FC212F9FFDD4439B4DC135 /* IGRPhotoTweaks.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DF520531B7C28D72F406E092512CADB /* CGFloat+IGRPhotoTweakExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963C70E1D34555A20888D40B8C7F04E5 /* CGFloat+IGRPhotoTweakExtension.swift */; };
+		7FEC730DD8F8A7FFC88959F59716051D /* IGRPhotoTweaks-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF3A6840059CC855DA41DE2EC09E7E7 /* IGRPhotoTweaks-dummy.m */; };
+		82906C22EB3C0AA5A92205529D26D009 /* IGRCropView+NSLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED40E2B37F8F94D2F64A935796147C9 /* IGRCropView+NSLayoutConstraint.swift */; };
+		83CEE00293ACCE13C33B2708F99441E7 /* iOSPhotoEditor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 534A115300124B9978F4E43DF4229EB9 /* iOSPhotoEditor-dummy.m */; };
+		857A8CA2D798B52F5208E549CABDAB76 /* IGRCropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A63AFC8AD79FF7B8B1DDD25D5F8148 /* IGRCropView.swift */; };
+		86461E5BA3664E74A2BCF0D75170C247 /* IGRCropCornerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519A1137370D1283AF8BEDA368A6442D /* IGRCropCornerView.swift */; };
+		87929A2F59DB5248F86A6C8879A1BBE0 /* PhotoEditor+Gestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6132B7FA362D5BD17B45B29A4845158 /* PhotoEditor+Gestures.swift */; };
+		8A8D2FD46A5674C457ABC8EFA5EC239E /* IGRPhotoTweakView+Mask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8977A070E78635AB07DE1DF37D833E1C /* IGRPhotoTweakView+Mask.swift */; };
+		8B5C09645865265F8D9548C709B19B48 /* PhotoEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E917C9BD9F4BD27A04227ED3131707F /* PhotoEditorViewController.swift */; };
+		8B77F20238D4A8BFE0CDE97B40EB7324 /* IGRCropCornerLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC68E6E3DFF42F33A5428CFA238BC3A7 /* IGRCropCornerLine.swift */; };
+		8BBD921A8CBEB5C4739DFD2855A2B20D /* PhotoCropEditorBorder@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 70808FB5126A3B4B46AF6CE100B7726B /* PhotoCropEditorBorder@3x.png */; };
+		8D056B9C4D22B5F24DBAA025AAFACC3E /* StickersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51E75070A0B174B78CDE309F00BEF28 /* StickersViewController.swift */; };
+		8DCDB5A15BA9EF0E2FD857837C96B41C /* CGImage+IGRPhotoTweakExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BCE9D12E748A3E6821C38401FC9E8B /* CGImage+IGRPhotoTweakExtension.swift */; };
+		8F3575468FCC7ED41620A18FCBCBF184 /* StickersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D11A0CD34C0812D1A06E6C4AD072A110 /* StickersViewController.xib */; };
+		913D2901CD113FDD3174CD943CCAB12A /* IGRCropView+AspectRatio.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08F41D387D6B468ACABD3A5592C9382 /* IGRCropView+AspectRatio.swift */; };
+		929ACED27ECBB334AF60003B77268799 /* ColorsCollectionViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F71630D432B9C74FDAE2F98355EB347 /* ColorsCollectionViewDelegate.swift */; };
+		978E9AE6C8A3A246C302C19A898C80A9 /* PhotoEditorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 991C10C8AD0BF7D6F55F8CEF0AD21512 /* PhotoEditorViewController.xib */; };
+		98FDFED680BB72922837C4383E58D5B3 /* PhotoEditor+Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5378A1B9F8EDC970965AF82D07A050 /* PhotoEditor+Font.swift */; };
+		9D536FB31ACBC98160CFB8C5297E4033 /* icomoon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB8C9205333114447ED6109332B6FF4A /* icomoon.ttf */; };
+		A0EC0EAF47ACBA54DA873A50D1721ADC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D23849C0EFDAD41F1B3E4344797446 /* Foundation.framework */; };
+		A5C2A3D6BC7FC6CAC2658B00C14C0AAF /* PhotoEditor+Drawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A7C57B4A6F50D7D125FA437ADB582B /* PhotoEditor+Drawing.swift */; };
+		A9A96547C0B9CC70A3CF6A1CF3DF8E86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5982B2532054FE618B52DB4F9029FA2 /* LaunchScreen.storyboard */; };
+		AA2C77DA2742EEF01A2C4BA3C1CE579E /* CGPoint+IGRPhotoTweakExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AB5B0851EBE1BEE74D6BE35F2B9B12 /* CGPoint+IGRPhotoTweakExtension.swift */; };
+		AD0B94BF66B5161D68007030B45757FA /* CropViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C8641A4FCB29AF5551917E5A2FDAED /* CropViewController.swift */; };
+		B02D95BAA57ABD03463709DA31B0807C /* HorizontalDial-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A1CDBD6B192C3E781C8177C8DA5F3AC4 /* HorizontalDial-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE6ED67FC981FB3C737D11D07AAFAF23 /* UIImageView+Alpha.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597F0E50DB517D356E2CE75496468F41 /* UIImageView+Alpha.swift */; };
+		BE813230C93635D7C86ED53D03176055 /* PhotoEditor+Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2EFB11BB913E195492984DE2844971 /* PhotoEditor+Keyboard.swift */; };
+		C2AD8B55233BA0A62A4BA1862A0CA7FC /* UIImage+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2464A00C31403D9B6462422AF40D8EAD /* UIImage+Size.swift */; };
+		C71B793F2913B723AB65E0A12E90D15B /* IGRPhotoTweakView+IGRCropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F379920E1A0603AF6B1B6A7D2485C82 /* IGRPhotoTweakView+IGRCropView.swift */; };
+		C84ECEB097B3B0E50E274264B6E142A4 /* IGRPhotoTweakViewController+AspectRatio.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01C0C7C8D108D397FF34E918870F43F /* IGRPhotoTweakViewController+AspectRatio.swift */; };
+		D03387B9314F94348A43BAEBDF109307 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5C2033EC2990D31A24831FE3B16A6B8 /* UIKit.framework */; };
+		D1F24684C70512232E6F3136AB8DEDD1 /* ColorCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3636CB2D3B5D530BC8329BD9B70D6965 /* ColorCollectionViewCell.swift */; };
+		D5A9F04C12BAC49DAA718B19823E924A /* StickerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3299D949DD34B2BEF48D7D3B72E68EE2 /* StickerCollectionViewCell.xib */; };
+		D5B81398FC15F4B36FFBA87B4151E4EB /* StickerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDC3FBE442962A64FACBC53E0229166 /* StickerCollectionViewCell.swift */; };
+		D872F476F129EC6B14F1B62353A163B9 /* IGRRadianAngle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B4A86C51155D0A5688A12A3E687CFC /* IGRRadianAngle.swift */; };
+		DC7B676301AB49BCF19148DB1A677834 /* EmojiCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D14D722294879AD22A15628B5931DF7 /* EmojiCollectionViewCell.swift */; };
+		DC8450FD0B5AE0BFF09B2476E7777AC5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7F5F09EC33FE6BB8CAB7BB54EA4F16A /* CoreGraphics.framework */; };
+		E27A71A4B731A4E88AEB51EB88EAF3F6 /* ColorCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A430B3FD4C36D8C7361BA2C7D5775390 /* ColorCollectionViewCell.xib */; };
+		E89BA1125E6EBA0C088632AFE9BA64CD /* iOSPhotoEditor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21C10F5BC49257C58C9425336D47379D /* iOSPhotoEditor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8C58AAD5FA3B740F02DE31C0736A485 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5C2033EC2990D31A24831FE3B16A6B8 /* UIKit.framework */; };
+		E90AA682832FC5C3D2C1B40ED2A49F89 /* IGRCropGridLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740C18BE0E07737A7CB3BBB032428CC5 /* IGRCropGridLine.swift */; };
+		ECE986DA98949144AE599E114E161F2E /* PhotoCropEditorBorder.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A5A8993871BCE22FBE9E7E0A301C43 /* PhotoCropEditorBorder.png */; };
+		EF0FBD1CE24B1ACC856BA73BC1667F60 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91A5E889224598C9A7028A868E0F4338 /* Photos.framework */; };
+		F0EDC63D50409480BDCE0721C57D432E /* Pods-ARKitFaceTrackingTutorial-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD326E79370F0DCA5BBCE0A945354252 /* Pods-ARKitFaceTrackingTutorial-dummy.m */; };
+		F86D3A05E7DA1B388686A6C4DD78E9F7 /* IGRPhotoContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D233A9AB685FE0EE0A457CA1ECD63D /* IGRPhotoContentView.swift */; };
+		F93B1B133D7397D9C9281F403E41469F /* IGRPhotoTweakView+Touch.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1FC5BD0BBFB055FE85783AD2A1A38F /* IGRPhotoTweakView+Touch.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D4981312312B13017859EE47C21601C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1F884CF54F28A0E2864327D81FA2EA7;
+			remoteInfo = HorizontalDial;
+		};
+		A376B0F5E796F389BF597EFA036E48D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 624EAFAC9D8C23C750C0C0B462D434C1;
+			remoteInfo = IGRPhotoTweaks;
+		};
+		A7331A6530DCF4D836996F3D2CD1A38E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 707750498984B8376E2CCAB25DD030AC;
+			remoteInfo = iOSPhotoEditor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		001D27197D916E848F7A839BCA8DFA2A /* IGRCropLine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IGRCropLine.swift; path = IGRPhotoTweaks/PhotoTweakView/CropView/Lines/IGRCropLine.swift; sourceTree = "<group>"; };
+		08785EBD8C33258EFEAD1E32EF93518F /* HorizontalDial-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HorizontalDial-Info.plist"; sourceTree = "<group>"; };
+		0CDC3FBE442962A64FACBC53E0229166 /* StickerCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StickerCollectionViewCell.swift; path = iOSPhotoEditor/StickerCollectionViewCell.swift; sourceTree = "<group>"; };
+		166613AEABED3AEF66C6182722208AE7 /* Pods-ARKitFaceTrackingTutorial-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ARKitFaceTrackingTutorial-umbrella.h"; sourceTree = "<group>"; };
+		17AB5B0851EBE1BEE74D6BE35F2B9B12 /* CGPoint+IGRPhotoTweakExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGPoint+IGRPhotoTweakExtension.swift"; path = "IGRPhotoTweaks/Category/CGPoint+IGRPhotoTweakExtension.swift"; sourceTree = "<group>"; };
+		1C551F6109EA99F156BEBF08EF524A20 /* iOSPhotoEditor-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "iOSPhotoEditor-Info.plist"; sourceTree = "<group>"; };
+		1FF0FBAD300B2822FDF38C820E5E9E4D /* HorizontalDial-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HorizontalDial-dummy.m"; sourceTree = "<group>"; };
+		1FFCB64FF7ED3D77EEDE2B82E91CD782 /* PhotoEditor+Controls.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PhotoEditor+Controls.swift"; path = "iOSPhotoEditor/PhotoEditor+Controls.swift"; sourceTree = "<group>"; };
+		21C10F5BC49257C58C9425336D47379D /* iOSPhotoEditor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOSPhotoEditor-umbrella.h"; sourceTree = "<group>"; };
+		23FFF0750239423E4ABDE690EB7C2BC9 /* PhotoEditor+UITextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PhotoEditor+UITextView.swift"; path = "iOSPhotoEditor/PhotoEditor+UITextView.swift"; sourceTree = "<group>"; };
+		2464A00C31403D9B6462422AF40D8EAD /* UIImage+Size.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Size.swift"; path = "iOSPhotoEditor/UIImage+Size.swift"; sourceTree = "<group>"; };
+		24D233A9AB685FE0EE0A457CA1ECD63D /* IGRPhotoContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IGRPhotoContentView.swift; path = IGRPhotoTweaks/PhotoTweakView/ScrollViews/IGRPhotoContentView.swift; sourceTree = "<group>"; };
+		251D32398BE5E8779445ACB5BBC56B20 /* IGRCropMaskView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IGRCropMaskView.swift; path = IGRPhotoTweaks/PhotoTweakView/CropView/Mask/IGRCropMaskView.swift; sourceTree = "<group>"; };
+		30331E324D55BCB8D9E1C241074B2EFB /* IGRPhotoTweakView+Angle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IGRPhotoTweakView+Angle.swift"; path = "IGRPhotoTweaks/PhotoTweakView/IGRPhotoTweakView+Angle.swift"; sourceTree = "<group>"; };
+		3299D949DD34B2BEF48D7D3B72E68EE2 /* StickerCollectionViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = StickerCollectionViewCell.xib; path = iOSPhotoEditor/StickerCollectionViewCell.xib; sourceTree = "<group>"; };
+		357EB4ACD733F4EA54020F8FD859E729 /* Pods-ARKitFaceTrackingTutorial.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ARKitFaceTrackingTutorial.modulemap"; sourceTree = "<group>"; };
+		35B0FC4144EA4003C40DDDCDBC6986F5 /* IGRPhotoTweakViewController+PHPhotoLibrary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IGRPhotoTweakViewController+PHPhotoLibrary.swift"; path = "IGRPhotoTweaks/IGRPhotoTweakViewController+PHPhotoLibrary.swift"; sourceTree = "<group>"; };
+		3636CB2D3B5D530BC8329BD9B70D6965 /* ColorCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorCollectionViewCell.swift; path = iOSPhotoEditor/ColorCollectionViewCell.swift; sourceTree = "<group>"; };
+		36A274ED0B867C6D280863BEE9C35429 /* HorizontalDial.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HorizontalDial.modulemap; sourceTree = "<group>"; };
+		38357737B8E03A0CBBAF31420E24281B /* Pods-ARKitFaceTrackingTutorial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ARKitFaceTrackingTutorial.release.xcconfig"; sourceTree = "<group>"; };
+		3D77C666DF8FBD2DA155A7962D82B2C1 /* PhotoEditor+Crop.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PhotoEditor+Crop.swift"; path = "iOSPhotoEditor/PhotoEditor+Crop.swift"; sourceTree = "<group>"; };
+		450D1AFBB1BF7059A52672CE368D7BD4 /* EmojiCollectionViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = EmojiCollectionViewCell.xib; path = iOSPhotoEditor/EmojiCollectionViewCell.xib; sourceTree = "<group>"; };
+		45A69A6608337B2BDCA5ECF99600D69E /* IGRPhotoTweakConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IGRPhotoTweakConstants.swift; path = IGRPhotoTweaks/Constants/IGRPhotoTweakConstants.swift; sourceTree = "<group>"; };
+		45EB17E66B8F467ED317A9348B2E6F75 /* IGRPhotoTweaks-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IGRPhotoTweaks-Info.plist"; sourceTree = "<group>"; };
+		49BFD676257B03168B50AF5006C9409F /* iOSPhotoEditor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOSPhotoEditor-prefix.pch"; sourceTree = "<group>"; };
+		49D23849C0EFDAD41F1B3E4344797446 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		49E2F71931E1886907387FFA747AF739 /* IGRPhotoTweaks-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IGRPhotoTweaks-prefix.pch"; sourceTree = "<group>"; };
+		4A3850CA60637BA488681B150328A88D /* PhotoCropEditorBorder@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "PhotoCropEditorBorder@2x.png"; path = "iOSPhotoEditor/PhotoCropEditorBorder@2x.png"; sourceTree = "<group>"; };
+		4E177D75AA1D63140E8F0EB0BF25EBC2 /* HorizontalDial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HorizontalDial.framework; path = HorizontalDial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		519A1137370D1283AF8BEDA368A6442D /* IGRCropCornerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IGRCropCornerView.swift; path = IGRPhotoTweaks/PhotoTweakView/CropView/Lines/IGRCropCornerView.swift; sourceTree = "<group>"; };
+		527117326D19B3438740BBF4C5DDC893 /* UIColor+IGRPhotoTweakExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+IGRPhotoTweakExtension.swift"; path = "IGRPhotoTweaks/Category/UIColor+IGRPhotoTweakExtension.swift"; sourceTree = "<group>"; };
+		534A115300124B9978F4E43DF4229EB9 /* iOSPhotoEditor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iOSPhotoEditor-dummy.m"; sourceTree = "<group>"; };
+		597F0E50DB517D356E2CE75496468F41 /* UIImageView+Alpha.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+Alpha.swift"; path = "iOSPhotoEditor/UIImageView+Alpha.swift"; sourceTree = "<group>"; };
+		5A86600506AA1FE047788FF957D1C973 /* HorizontalDial.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HorizontalDial.swift; path = HorizontalDial/HorizontalDial.swift; sourceTree = "<group>"; };
+		5D14D722294879AD22A15628B5931DF7 /* EmojiCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmojiCollectionViewCell.swift; path = iOSPhotoEditor/EmojiCollectionViewCell.swift; sourceTree = "<group>"; };
+		62BE9E793C726A772C3AC719CCB7D168 /* CropRectView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropRectView.swift; path = iOSPhotoEditor/CropRectView.swift; sourceTree = "<group>"; };
+		63DE109A35B752138FF2C29ABCD08ED5 /* Pods-ARKitFaceTrackingTutorial-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ARKitFaceTrackingTutorial-acknowledgements.plist"; sourceTree = "<group>"; };
+		65B4A86C51155D0A5688A12A3E687CFC /* IGRRadianAngle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IGRRadianAngle.swift; path = IGRPhotoTweaks/Helper/IGRRadianAngle.swift; sourceTree = "<group>"; };
+		6891B785F19AD9DA89132EC01F94F1F3 /* Pods-ARKitFaceTrackingTutorial-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ARKitFaceTrackingTutorial-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6C706C84953A27769D20FFB980BD7F5C /* ResizeControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResizeControl.swift; path = iOSPhotoEditor/ResizeControl.swift; sourceTree = "<group>"; };
+		6E391F41684570A10AF00E7D01D658A9 /* IGRPhotoTweakViewController+Customization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IGRPhotoTweakViewController+Customization.swift"; path = "IGRPhotoTweaks/IGRPhotoTweakViewController+Customization.swift"; sourceTree = "<group>"; };
+		6E6D10CDE76107CC0C1154BD0C2B2F67 /* IGRPhotoTweakView+UIScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IGRPhotoTweakView+UIScrollView.swift"; path = "IGRPhotoTweaks/PhotoTweakView/IGRPhotoTweakView+UIScrollView.swift"; sourceTree = "<group>"; };
+		6E917C9BD9F4BD27A04227ED3131707F /* PhotoEditorViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhotoEditorViewController.swift; path = iOSPhotoEditor/PhotoEditorViewController.swift; sourceTree = "<group>"; };
+		6F379920E1A0603AF6B1B6A7D2485C82 /* IGRPhotoTweakView+IGRCropView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IGRPhotoTweakView+IGRCropView.swift"; path = "IGRPhotoTweaks/PhotoTweakView/IGRPhotoTweakView+IGRCropView.swift"; sourceTree = "<group>"; };
+		70808FB5126A3B4B46AF6CE100B7726B /* PhotoCropEditorBorder@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "PhotoCropEditorBorder@3x.png"; path = "iOSPhotoEditor/PhotoCropEditorBorder@3x.png"; sourceTree = "<group>"; };
+		740C18BE0E07737A7CB3BBB032428CC5 /* IGRCropGridLine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IGRCropGridLine.swift; path = IGRPhotoTweaks/PhotoTweakView/CropView/Lines/IGRCropGridLine.swift; sourceTree = "<group>"; };
+		7E325FAB52F4E37A09A49FC68620D89F /* IGRPhotoTweakViewController+Angle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IGRPhotoTweakViewController+Angle.swift"; path = "IGRPhotoTweaks/IGRPhotoTweakViewController+Angle.swift"; sourceTree = "<group>"; };
+		7ED40E2B37F8F94D2F64A935796147C9 /* IGRCropView+NSLayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IGRCropView+NSLayoutConstraint.swift"; path = "IGRPhotoTweaks/PhotoTweakView/CropView/IGRCropView+NSLayoutConstraint.swift"; sourceTree = "<group>"; };
+		7F71630D432B9C74FDAE2F98355EB347 /* ColorsCollectionViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorsCollectionViewDelegate.swift; path = iOSPhotoEditor/ColorsCollectionViewDelegate.swift; sourceTree = "<group>"; };
+		80A7C57B4A6F50D7D125FA437ADB582B /* PhotoEditor+Drawing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PhotoEditor+Drawing.swift"; path = "iOSPhotoEditor/PhotoEditor+Drawing.swift"; sourceTree = "<group>"; };
+		81C8641A4FCB29AF5551917E5A2FDAED /* CropViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropViewController.swift; path = iOSPhotoEditor/CropViewController.swift; sourceTree = "<group>"; };
+		83A63AFC8AD79FF7B8B1DDD25D5F8148 /* IGRCropView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IGRCropView.swift; path = IGRPhotoTweaks/PhotoTweakView/CropView/IGRCropView.swift; sourceTree = "<group>"; };
+		84D74B5A2F0840415DF534D89790EE97 /* IGRCropView+Lines.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IGRCropView+Lines.swift"; path = "IGRPhotoTweaks/PhotoTweakView/CropView/IGRCropView+Lines.swift"; sourceTree = "<group>"; };
+		8977A070E78635AB07DE1DF37D833E1C /* IGRPhotoTweakView+Mask.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IGRPhotoTweakView+Mask.swift"; path = "IGRPhotoTweaks/PhotoTweakView/IGRPhotoTweakView+Mask.swift"; sourceTree = "<group>"; };
+		8BF3A6840059CC855DA41DE2EC09E7E7 /* IGRPhotoTweaks-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IGRPhotoTweaks-dummy.m"; sourceTree = "<group>"; };
+		8CD23B7108769A8DB6649D7DA03CCA6C /* UIImage+Crop.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Crop.swift"; path = "iOSPhotoEditor/UIImage+Crop.swift"; sourceTree = "<group>"; };
+		91A5E889224598C9A7028A868E0F4338 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Photos.framework; sourceTree = DEVELOPER_DIR; };
+		963C70E1D34555A20888D40B8C7F04E5 /* CGFloat+IGRPhotoTweakExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGFloat+IGRPhotoTweakExtension.swift"; path = "IGRPhotoTweaks/Category/CGFloat+IGRPhotoTweakExtension.swift"; sourceTree = "<group>"; };
+		991C10C8AD0BF7D6F55F8CEF0AD21512 /* PhotoEditorViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = PhotoEditorViewController.xib; path = iOSPhotoEditor/PhotoEditorViewController.xib; sourceTree = "<group>"; };
+		9BEDFD7F7D12B9666390C3FC9CA0F1E4 /* IGRPhotoTweaks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IGRPhotoTweaks.framework; path = IGRPhotoTweaks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C65403B0F462504AD8C29AFB4BA9CDD /* IGRPhotoTweakView+AspectRatio.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IGRPhotoTweakView+AspectRatio.swift"; path = "IGRPhotoTweaks/PhotoTweakView/IGRPhotoTweakView+AspectRatio.swift"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A01C0C7C8D108D397FF34E918870F43F /* IGRPhotoTweakViewController+AspectRatio.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IGRPhotoTweakViewController+AspectRatio.swift"; path = "IGRPhotoTweaks/IGRPhotoTweakViewController+AspectRatio.swift"; sourceTree = "<group>"; };
+		A1CDBD6B192C3E781C8177C8DA5F3AC4 /* HorizontalDial-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HorizontalDial-umbrella.h"; sourceTree = "<group>"; };
+		A430B3FD4C36D8C7361BA2C7D5775390 /* ColorCollectionViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ColorCollectionViewCell.xib; path = iOSPhotoEditor/ColorCollectionViewCell.xib; sourceTree = "<group>"; };
+		AB8D99F1F57DF570F0A0E423F8467EFF /* iOSPhotoEditor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = iOSPhotoEditor.modulemap; sourceTree = "<group>"; };
+		B10A38DA3AFBA7F0E2D38926B00A77A4 /* Pods-ARKitFaceTrackingTutorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ARKitFaceTrackingTutorial.debug.xcconfig"; sourceTree = "<group>"; };
+		B41513DB2B48A0168536B9BEF590B142 /* UIView+Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Image.swift"; path = "iOSPhotoEditor/UIView+Image.swift"; sourceTree = "<group>"; };
+		B5982B2532054FE618B52DB4F9029FA2 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = iOSPhotoEditor/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B61E4B0AC869C950F868FA499A7859C5 /* EmojisCollectionViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmojisCollectionViewDelegate.swift; path = iOSPhotoEditor/EmojisCollectionViewDelegate.swift; sourceTree = "<group>"; };
+		B8B4D01C30EF40348ED4DAD814B7F11B /* IGRPhotoTweaks-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IGRPhotoTweaks-umbrella.h"; sourceTree = "<group>"; };
+		B94460146036D0E57D374D9C95069D12 /* IGRCropView+UITouch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IGRCropView+UITouch.swift"; path = "IGRPhotoTweaks/PhotoTweakView/CropView/IGRCropView+UITouch.swift"; sourceTree = "<group>"; };
+		BC2EFB11BB913E195492984DE2844971 /* PhotoEditor+Keyboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PhotoEditor+Keyboard.swift"; path = "iOSPhotoEditor/PhotoEditor+Keyboard.swift"; sourceTree = "<group>"; };
+		BC68E6E3DFF42F33A5428CFA238BC3A7 /* IGRCropCornerLine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IGRCropCornerLine.swift; path = IGRPhotoTweaks/PhotoTweakView/CropView/Lines/IGRCropCornerLine.swift; sourceTree = "<group>"; };
+		BC6E99A19087553BE6EDAE0383B1C749 /* Pods-ARKitFaceTrackingTutorial-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ARKitFaceTrackingTutorial-frameworks.sh"; sourceTree = "<group>"; };
+		C08F41D387D6B468ACABD3A5592C9382 /* IGRCropView+AspectRatio.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IGRCropView+AspectRatio.swift"; path = "IGRPhotoTweaks/PhotoTweakView/CropView/IGRCropView+AspectRatio.swift"; sourceTree = "<group>"; };
+		C1C89320234BA807687CFE28FC4F4308 /* Pods_ARKitFaceTrackingTutorial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ARKitFaceTrackingTutorial.framework; path = "Pods-ARKitFaceTrackingTutorial.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3D07DB9BF3C351A8BDCAF6495B34906 /* iOSPhotoEditor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iOSPhotoEditor.xcconfig; sourceTree = "<group>"; };
+		CB8C9205333114447ED6109332B6FF4A /* icomoon.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = icomoon.ttf; path = iOSPhotoEditor/icomoon.ttf; sourceTree = "<group>"; };
+		CD2A0A42FA928C11136C1B4C77F6D6C2 /* Pods-ARKitFaceTrackingTutorial-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ARKitFaceTrackingTutorial-Info.plist"; sourceTree = "<group>"; };
+		CDADBDB93A502759A13850B89A6A8730 /* IGRPhotoTweakView+Customization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IGRPhotoTweakView+Customization.swift"; path = "IGRPhotoTweaks/PhotoTweakView/IGRPhotoTweakView+Customization.swift"; sourceTree = "<group>"; };
+		D04AA4BFADB011A31C4AB62465D20E75 /* IGRPhotoTweaks.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IGRPhotoTweaks.xcconfig; sourceTree = "<group>"; };
+		D11A0CD34C0812D1A06E6C4AD072A110 /* StickersViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = StickersViewController.xib; path = iOSPhotoEditor/StickersViewController.xib; sourceTree = "<group>"; };
+		D1AAE45F72F2840FF2596D93F88DBFCE /* iOSPhotoEditor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = iOSPhotoEditor.framework; path = iOSPhotoEditor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4A5A8993871BCE22FBE9E7E0A301C43 /* PhotoCropEditorBorder.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = PhotoCropEditorBorder.png; path = iOSPhotoEditor/PhotoCropEditorBorder.png; sourceTree = "<group>"; };
+		D50474726DC4BF1DD1A8E5A15C353B51 /* GradientView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradientView.swift; path = iOSPhotoEditor/GradientView.swift; sourceTree = "<group>"; };
+		D517898128E73BC09C04C4C8FC96FD80 /* HorizontalDial-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HorizontalDial-prefix.pch"; sourceTree = "<group>"; };
+		D51E75070A0B174B78CDE309F00BEF28 /* StickersViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StickersViewController.swift; path = iOSPhotoEditor/StickersViewController.swift; sourceTree = "<group>"; };
+		D6132B7FA362D5BD17B45B29A4845158 /* PhotoEditor+Gestures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PhotoEditor+Gestures.swift"; path = "iOSPhotoEditor/PhotoEditor+Gestures.swift"; sourceTree = "<group>"; };
+		DA5378A1B9F8EDC970965AF82D07A050 /* PhotoEditor+Font.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PhotoEditor+Font.swift"; path = "iOSPhotoEditor/PhotoEditor+Font.swift"; sourceTree = "<group>"; };
+		DD326E79370F0DCA5BBCE0A945354252 /* Pods-ARKitFaceTrackingTutorial-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ARKitFaceTrackingTutorial-dummy.m"; sourceTree = "<group>"; };
+		DDA4C1C16A836545DD315E3F092E7EE7 /* CropView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropView.swift; path = iOSPhotoEditor/CropView.swift; sourceTree = "<group>"; };
+		E0A89056B4FC212F9FFDD4439B4DC135 /* IGRPhotoTweaks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGRPhotoTweaks.h; path = IGRPhotoTweaks/IGRPhotoTweaks.h; sourceTree = "<group>"; };
+		E527FCC6FE44949D948864D29719D514 /* UIImage+IGRPhotoTweakExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+IGRPhotoTweakExtension.swift"; path = "IGRPhotoTweaks/Category/UIImage+IGRPhotoTweakExtension.swift"; sourceTree = "<group>"; };
+		E89483AAE4D8D45368B151D108F8C474 /* HorizontalDial.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HorizontalDial.xcconfig; sourceTree = "<group>"; };
+		EAED910B549FDAE8BDB44FCA23514C83 /* IGRPhotoTweakView+NSLayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IGRPhotoTweakView+NSLayoutConstraint.swift"; path = "IGRPhotoTweaks/PhotoTweakView/IGRPhotoTweakView+NSLayoutConstraint.swift"; sourceTree = "<group>"; };
+		EBBB0D734B35521356BFCF6CE435E9EC /* PhotoEditor+StickersViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PhotoEditor+StickersViewController.swift"; path = "iOSPhotoEditor/PhotoEditor+StickersViewController.swift"; sourceTree = "<group>"; };
+		F018E826782504B89740B6905AD1E80F /* IGRPhotoScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IGRPhotoScrollView.swift; path = IGRPhotoTweaks/PhotoTweakView/ScrollViews/IGRPhotoScrollView.swift; sourceTree = "<group>"; };
+		F0DF769CB3FF99B2AF30706B536A4EBC /* IGRPhotoTweakView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IGRPhotoTweakView.swift; path = IGRPhotoTweaks/PhotoTweakView/IGRPhotoTweakView.swift; sourceTree = "<group>"; };
+		F2BCE9D12E748A3E6821C38401FC9E8B /* CGImage+IGRPhotoTweakExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGImage+IGRPhotoTweakExtension.swift"; path = "IGRPhotoTweaks/Category/CGImage+IGRPhotoTweakExtension.swift"; sourceTree = "<group>"; };
+		F5C2033EC2990D31A24831FE3B16A6B8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		F7F5F09EC33FE6BB8CAB7BB54EA4F16A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		F83AA5215116743A763C26C2A2CDE1AA /* IGRPhotoTweakViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IGRPhotoTweakViewController.swift; path = IGRPhotoTweaks/IGRPhotoTweakViewController.swift; sourceTree = "<group>"; };
+		FA976E14F3CA897A97A26724A4D2B143 /* IGRPhotoTweaks.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IGRPhotoTweaks.modulemap; sourceTree = "<group>"; };
+		FE1FC5BD0BBFB055FE85783AD2A1A38F /* IGRPhotoTweakView+Touch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IGRPhotoTweakView+Touch.swift"; path = "IGRPhotoTweaks/PhotoTweakView/IGRPhotoTweakView+Touch.swift"; sourceTree = "<group>"; };
+		FED95B06DF1F646394FAACDD9DF4346A /* Protocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protocols.swift; path = iOSPhotoEditor/Protocols.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AC4D68C12B8B79E6070B6F670165B5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60C437E451E2AF4757B868654BD9238E /* Foundation.framework in Frameworks */,
+				D03387B9314F94348A43BAEBDF109307 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B46BB33112C932B0F60D4BFD8ABF211 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC8450FD0B5AE0BFF09B2476E7777AC5 /* CoreGraphics.framework in Frameworks */,
+				5F7548412D6299275B69CCC2FC701AC1 /* Foundation.framework in Frameworks */,
+				EF0FBD1CE24B1ACC856BA73BC1667F60 /* Photos.framework in Frameworks */,
+				E8C58AAD5FA3B740F02DE31C0736A485 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99516C182BA822797929C1B8F9B59C56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77144B67EB37C1E46A96A4168B9BD979 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF95907CEA8DA190703A5BA403F8A2F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0EC0EAF47ACBA54DA873A50D1721ADC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A864F43868F6492A4C5FF12266930F3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB8D99F1F57DF570F0A0E423F8467EFF /* iOSPhotoEditor.modulemap */,
+				C3D07DB9BF3C351A8BDCAF6495B34906 /* iOSPhotoEditor.xcconfig */,
+				534A115300124B9978F4E43DF4229EB9 /* iOSPhotoEditor-dummy.m */,
+				1C551F6109EA99F156BEBF08EF524A20 /* iOSPhotoEditor-Info.plist */,
+				49BFD676257B03168B50AF5006C9409F /* iOSPhotoEditor-prefix.pch */,
+				21C10F5BC49257C58C9425336D47379D /* iOSPhotoEditor-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/iOSPhotoEditor";
+			sourceTree = "<group>";
+		};
+		47649CFA30AEAD0A1A825357A68FD17E /* IGRPhotoTweaks */ = {
+			isa = PBXGroup;
+			children = (
+				963C70E1D34555A20888D40B8C7F04E5 /* CGFloat+IGRPhotoTweakExtension.swift */,
+				F2BCE9D12E748A3E6821C38401FC9E8B /* CGImage+IGRPhotoTweakExtension.swift */,
+				17AB5B0851EBE1BEE74D6BE35F2B9B12 /* CGPoint+IGRPhotoTweakExtension.swift */,
+				BC68E6E3DFF42F33A5428CFA238BC3A7 /* IGRCropCornerLine.swift */,
+				519A1137370D1283AF8BEDA368A6442D /* IGRCropCornerView.swift */,
+				740C18BE0E07737A7CB3BBB032428CC5 /* IGRCropGridLine.swift */,
+				001D27197D916E848F7A839BCA8DFA2A /* IGRCropLine.swift */,
+				251D32398BE5E8779445ACB5BBC56B20 /* IGRCropMaskView.swift */,
+				83A63AFC8AD79FF7B8B1DDD25D5F8148 /* IGRCropView.swift */,
+				C08F41D387D6B468ACABD3A5592C9382 /* IGRCropView+AspectRatio.swift */,
+				84D74B5A2F0840415DF534D89790EE97 /* IGRCropView+Lines.swift */,
+				7ED40E2B37F8F94D2F64A935796147C9 /* IGRCropView+NSLayoutConstraint.swift */,
+				B94460146036D0E57D374D9C95069D12 /* IGRCropView+UITouch.swift */,
+				24D233A9AB685FE0EE0A457CA1ECD63D /* IGRPhotoContentView.swift */,
+				F018E826782504B89740B6905AD1E80F /* IGRPhotoScrollView.swift */,
+				45A69A6608337B2BDCA5ECF99600D69E /* IGRPhotoTweakConstants.swift */,
+				E0A89056B4FC212F9FFDD4439B4DC135 /* IGRPhotoTweaks.h */,
+				F0DF769CB3FF99B2AF30706B536A4EBC /* IGRPhotoTweakView.swift */,
+				30331E324D55BCB8D9E1C241074B2EFB /* IGRPhotoTweakView+Angle.swift */,
+				9C65403B0F462504AD8C29AFB4BA9CDD /* IGRPhotoTweakView+AspectRatio.swift */,
+				CDADBDB93A502759A13850B89A6A8730 /* IGRPhotoTweakView+Customization.swift */,
+				6F379920E1A0603AF6B1B6A7D2485C82 /* IGRPhotoTweakView+IGRCropView.swift */,
+				8977A070E78635AB07DE1DF37D833E1C /* IGRPhotoTweakView+Mask.swift */,
+				EAED910B549FDAE8BDB44FCA23514C83 /* IGRPhotoTweakView+NSLayoutConstraint.swift */,
+				FE1FC5BD0BBFB055FE85783AD2A1A38F /* IGRPhotoTweakView+Touch.swift */,
+				6E6D10CDE76107CC0C1154BD0C2B2F67 /* IGRPhotoTweakView+UIScrollView.swift */,
+				F83AA5215116743A763C26C2A2CDE1AA /* IGRPhotoTweakViewController.swift */,
+				7E325FAB52F4E37A09A49FC68620D89F /* IGRPhotoTweakViewController+Angle.swift */,
+				A01C0C7C8D108D397FF34E918870F43F /* IGRPhotoTweakViewController+AspectRatio.swift */,
+				6E391F41684570A10AF00E7D01D658A9 /* IGRPhotoTweakViewController+Customization.swift */,
+				35B0FC4144EA4003C40DDDCDBC6986F5 /* IGRPhotoTweakViewController+PHPhotoLibrary.swift */,
+				65B4A86C51155D0A5688A12A3E687CFC /* IGRRadianAngle.swift */,
+				527117326D19B3438740BBF4C5DDC893 /* UIColor+IGRPhotoTweakExtension.swift */,
+				E527FCC6FE44949D948864D29719D514 /* UIImage+IGRPhotoTweakExtension.swift */,
+				CC1C25B81E39EEA2CD51C426FF63829A /* Support Files */,
+			);
+			name = IGRPhotoTweaks;
+			path = IGRPhotoTweaks;
+			sourceTree = "<group>";
+		};
+		57C369803133F3EB52C33B16FCBD4583 /* HorizontalDial */ = {
+			isa = PBXGroup;
+			children = (
+				5A86600506AA1FE047788FF957D1C973 /* HorizontalDial.swift */,
+				679181FE48ADB6ED47BA73ADD897B78B /* Support Files */,
+			);
+			name = HorizontalDial;
+			path = HorizontalDial;
+			sourceTree = "<group>";
+		};
+		679181FE48ADB6ED47BA73ADD897B78B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				36A274ED0B867C6D280863BEE9C35429 /* HorizontalDial.modulemap */,
+				E89483AAE4D8D45368B151D108F8C474 /* HorizontalDial.xcconfig */,
+				1FF0FBAD300B2822FDF38C820E5E9E4D /* HorizontalDial-dummy.m */,
+				08785EBD8C33258EFEAD1E32EF93518F /* HorizontalDial-Info.plist */,
+				D517898128E73BC09C04C4C8FC96FD80 /* HorizontalDial-prefix.pch */,
+				A1CDBD6B192C3E781C8177C8DA5F3AC4 /* HorizontalDial-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HorizontalDial";
+			sourceTree = "<group>";
+		};
+		8B32241A659908113BF19674E770E239 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				57C369803133F3EB52C33B16FCBD4583 /* HorizontalDial */,
+				47649CFA30AEAD0A1A825357A68FD17E /* IGRPhotoTweaks */,
+				DA6B43700B5D2AE3E7FBD45487615008 /* iOSPhotoEditor */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		91650B12E4800E9E42CAD0CDB8397329 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E177D75AA1D63140E8F0EB0BF25EBC2 /* HorizontalDial.framework */,
+				9BEDFD7F7D12B9666390C3FC9CA0F1E4 /* IGRPhotoTweaks.framework */,
+				D1AAE45F72F2840FF2596D93F88DBFCE /* iOSPhotoEditor.framework */,
+				C1C89320234BA807687CFE28FC4F4308 /* Pods_ARKitFaceTrackingTutorial.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA1611B3AF90FEA681494E6F0A5CD4FD /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC1C25B81E39EEA2CD51C426FF63829A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA976E14F3CA897A97A26724A4D2B143 /* IGRPhotoTweaks.modulemap */,
+				D04AA4BFADB011A31C4AB62465D20E75 /* IGRPhotoTweaks.xcconfig */,
+				8BF3A6840059CC855DA41DE2EC09E7E7 /* IGRPhotoTweaks-dummy.m */,
+				45EB17E66B8F467ED317A9348B2E6F75 /* IGRPhotoTweaks-Info.plist */,
+				49E2F71931E1886907387FFA747AF739 /* IGRPhotoTweaks-prefix.pch */,
+				B8B4D01C30EF40348ED4DAD814B7F11B /* IGRPhotoTweaks-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IGRPhotoTweaks";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				8B32241A659908113BF19674E770E239 /* Pods */,
+				91650B12E4800E9E42CAD0CDB8397329 /* Products */,
+				F065C029059C79A09F8947161C7F0474 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DA1611B3AF90FEA681494E6F0A5CD4FD /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F7F5F09EC33FE6BB8CAB7BB54EA4F16A /* CoreGraphics.framework */,
+				49D23849C0EFDAD41F1B3E4344797446 /* Foundation.framework */,
+				91A5E889224598C9A7028A868E0F4338 /* Photos.framework */,
+				F5C2033EC2990D31A24831FE3B16A6B8 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DA6B43700B5D2AE3E7FBD45487615008 /* iOSPhotoEditor */ = {
+			isa = PBXGroup;
+			children = (
+				3636CB2D3B5D530BC8329BD9B70D6965 /* ColorCollectionViewCell.swift */,
+				7F71630D432B9C74FDAE2F98355EB347 /* ColorsCollectionViewDelegate.swift */,
+				62BE9E793C726A772C3AC719CCB7D168 /* CropRectView.swift */,
+				DDA4C1C16A836545DD315E3F092E7EE7 /* CropView.swift */,
+				81C8641A4FCB29AF5551917E5A2FDAED /* CropViewController.swift */,
+				5D14D722294879AD22A15628B5931DF7 /* EmojiCollectionViewCell.swift */,
+				B61E4B0AC869C950F868FA499A7859C5 /* EmojisCollectionViewDelegate.swift */,
+				D50474726DC4BF1DD1A8E5A15C353B51 /* GradientView.swift */,
+				1FFCB64FF7ED3D77EEDE2B82E91CD782 /* PhotoEditor+Controls.swift */,
+				3D77C666DF8FBD2DA155A7962D82B2C1 /* PhotoEditor+Crop.swift */,
+				80A7C57B4A6F50D7D125FA437ADB582B /* PhotoEditor+Drawing.swift */,
+				DA5378A1B9F8EDC970965AF82D07A050 /* PhotoEditor+Font.swift */,
+				D6132B7FA362D5BD17B45B29A4845158 /* PhotoEditor+Gestures.swift */,
+				BC2EFB11BB913E195492984DE2844971 /* PhotoEditor+Keyboard.swift */,
+				EBBB0D734B35521356BFCF6CE435E9EC /* PhotoEditor+StickersViewController.swift */,
+				23FFF0750239423E4ABDE690EB7C2BC9 /* PhotoEditor+UITextView.swift */,
+				6E917C9BD9F4BD27A04227ED3131707F /* PhotoEditorViewController.swift */,
+				FED95B06DF1F646394FAACDD9DF4346A /* Protocols.swift */,
+				6C706C84953A27769D20FFB980BD7F5C /* ResizeControl.swift */,
+				0CDC3FBE442962A64FACBC53E0229166 /* StickerCollectionViewCell.swift */,
+				D51E75070A0B174B78CDE309F00BEF28 /* StickersViewController.swift */,
+				8CD23B7108769A8DB6649D7DA03CCA6C /* UIImage+Crop.swift */,
+				2464A00C31403D9B6462422AF40D8EAD /* UIImage+Size.swift */,
+				597F0E50DB517D356E2CE75496468F41 /* UIImageView+Alpha.swift */,
+				B41513DB2B48A0168536B9BEF590B142 /* UIView+Image.swift */,
+				E824AEDB6D6E546826A939D2B737CFB6 /* Resources */,
+				0A864F43868F6492A4C5FF12266930F3 /* Support Files */,
+			);
+			name = iOSPhotoEditor;
+			path = iOSPhotoEditor;
+			sourceTree = "<group>";
+		};
+		E7D64EAF2207CE15F7487A3B2EEC6329 /* Pods-ARKitFaceTrackingTutorial */ = {
+			isa = PBXGroup;
+			children = (
+				357EB4ACD733F4EA54020F8FD859E729 /* Pods-ARKitFaceTrackingTutorial.modulemap */,
+				6891B785F19AD9DA89132EC01F94F1F3 /* Pods-ARKitFaceTrackingTutorial-acknowledgements.markdown */,
+				63DE109A35B752138FF2C29ABCD08ED5 /* Pods-ARKitFaceTrackingTutorial-acknowledgements.plist */,
+				DD326E79370F0DCA5BBCE0A945354252 /* Pods-ARKitFaceTrackingTutorial-dummy.m */,
+				BC6E99A19087553BE6EDAE0383B1C749 /* Pods-ARKitFaceTrackingTutorial-frameworks.sh */,
+				CD2A0A42FA928C11136C1B4C77F6D6C2 /* Pods-ARKitFaceTrackingTutorial-Info.plist */,
+				166613AEABED3AEF66C6182722208AE7 /* Pods-ARKitFaceTrackingTutorial-umbrella.h */,
+				B10A38DA3AFBA7F0E2D38926B00A77A4 /* Pods-ARKitFaceTrackingTutorial.debug.xcconfig */,
+				38357737B8E03A0CBBAF31420E24281B /* Pods-ARKitFaceTrackingTutorial.release.xcconfig */,
+			);
+			name = "Pods-ARKitFaceTrackingTutorial";
+			path = "Target Support Files/Pods-ARKitFaceTrackingTutorial";
+			sourceTree = "<group>";
+		};
+		E824AEDB6D6E546826A939D2B737CFB6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A430B3FD4C36D8C7361BA2C7D5775390 /* ColorCollectionViewCell.xib */,
+				450D1AFBB1BF7059A52672CE368D7BD4 /* EmojiCollectionViewCell.xib */,
+				CB8C9205333114447ED6109332B6FF4A /* icomoon.ttf */,
+				B5982B2532054FE618B52DB4F9029FA2 /* LaunchScreen.storyboard */,
+				D4A5A8993871BCE22FBE9E7E0A301C43 /* PhotoCropEditorBorder.png */,
+				4A3850CA60637BA488681B150328A88D /* PhotoCropEditorBorder@2x.png */,
+				70808FB5126A3B4B46AF6CE100B7726B /* PhotoCropEditorBorder@3x.png */,
+				991C10C8AD0BF7D6F55F8CEF0AD21512 /* PhotoEditorViewController.xib */,
+				3299D949DD34B2BEF48D7D3B72E68EE2 /* StickerCollectionViewCell.xib */,
+				D11A0CD34C0812D1A06E6C4AD072A110 /* StickersViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F065C029059C79A09F8947161C7F0474 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E7D64EAF2207CE15F7487A3B2EEC6329 /* Pods-ARKitFaceTrackingTutorial */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		27867DEB09331EA59EA30616D981BFE9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				300065A24094E2BFF26900AA06AA4831 /* Pods-ARKitFaceTrackingTutorial-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79566A2E1DB3A2C858977014A7716800 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E89BA1125E6EBA0C088632AFE9BA64CD /* iOSPhotoEditor-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EACF055222198DD680F8AA7E865E648 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1646CBA7CD94198FE30F2A351D51B36F /* IGRPhotoTweaks-umbrella.h in Headers */,
+				7D1E089EC71151D9975A62ABFB77BBB4 /* IGRPhotoTweaks.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D203D818DE43269EEE6EC56E075F2C50 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B02D95BAA57ABD03463709DA31B0807C /* HorizontalDial-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1E739CECF5C80AEAAAF3318B1E268278 /* Pods-ARKitFaceTrackingTutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15E598D61D231AF33F61F769D91357E1 /* Build configuration list for PBXNativeTarget "Pods-ARKitFaceTrackingTutorial" */;
+			buildPhases = (
+				27867DEB09331EA59EA30616D981BFE9 /* Headers */,
+				B2308F46C1273DF6263DA9EF13348A8E /* Sources */,
+				FF95907CEA8DA190703A5BA403F8A2F6 /* Frameworks */,
+				6357F3E83E2DAA24169D19CEC9827170 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC719CACB7AFC6D438DDB54DA267762F /* PBXTargetDependency */,
+				053048D22E4BCF0E8B08E3ACC2F72A15 /* PBXTargetDependency */,
+				753503016C13038F246EED5FCBAA6658 /* PBXTargetDependency */,
+			);
+			name = "Pods-ARKitFaceTrackingTutorial";
+			productName = "Pods-ARKitFaceTrackingTutorial";
+			productReference = C1C89320234BA807687CFE28FC4F4308 /* Pods_ARKitFaceTrackingTutorial.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		624EAFAC9D8C23C750C0C0B462D434C1 /* IGRPhotoTweaks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6C8C51B45B837C60AE9F78DDCB12492 /* Build configuration list for PBXNativeTarget "IGRPhotoTweaks" */;
+			buildPhases = (
+				7EACF055222198DD680F8AA7E865E648 /* Headers */,
+				19EFF32569AD86B840D623634B7738A7 /* Sources */,
+				8B46BB33112C932B0F60D4BFD8ABF211 /* Frameworks */,
+				C843867F12A34871EC11676F55895568 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IGRPhotoTweaks;
+			productName = IGRPhotoTweaks;
+			productReference = 9BEDFD7F7D12B9666390C3FC9CA0F1E4 /* IGRPhotoTweaks.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		707750498984B8376E2CCAB25DD030AC /* iOSPhotoEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C762ABCFC653450626B04E9BBDDC78B /* Build configuration list for PBXNativeTarget "iOSPhotoEditor" */;
+			buildPhases = (
+				79566A2E1DB3A2C858977014A7716800 /* Headers */,
+				39A2C8398A3B40F8789A7C1A0BFA8017 /* Sources */,
+				99516C182BA822797929C1B8F9B59C56 /* Frameworks */,
+				E2EC455CC4A4F9B24FD898C1606DBA01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSPhotoEditor;
+			productName = iOSPhotoEditor;
+			productReference = D1AAE45F72F2840FF2596D93F88DBFCE /* iOSPhotoEditor.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E1F884CF54F28A0E2864327D81FA2EA7 /* HorizontalDial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BDF4A558FE2618D043CB69C4828522B /* Build configuration list for PBXNativeTarget "HorizontalDial" */;
+			buildPhases = (
+				D203D818DE43269EEE6EC56E075F2C50 /* Headers */,
+				6F31BCB81AFF0EB801875857C1815774 /* Sources */,
+				2AC4D68C12B8B79E6070B6F670165B5F /* Frameworks */,
+				83DC0011CCDB6DD583DAD339ABB00B1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HorizontalDial;
+			productName = HorizontalDial;
+			productReference = 4E177D75AA1D63140E8F0EB0BF25EBC2 /* HorizontalDial.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 91650B12E4800E9E42CAD0CDB8397329 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1F884CF54F28A0E2864327D81FA2EA7 /* HorizontalDial */,
+				624EAFAC9D8C23C750C0C0B462D434C1 /* IGRPhotoTweaks */,
+				707750498984B8376E2CCAB25DD030AC /* iOSPhotoEditor */,
+				1E739CECF5C80AEAAAF3318B1E268278 /* Pods-ARKitFaceTrackingTutorial */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6357F3E83E2DAA24169D19CEC9827170 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83DC0011CCDB6DD583DAD339ABB00B1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C843867F12A34871EC11676F55895568 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2EC455CC4A4F9B24FD898C1606DBA01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E27A71A4B731A4E88AEB51EB88EAF3F6 /* ColorCollectionViewCell.xib in Resources */,
+				341142E4E7688A1C40D0227FC3F60A19 /* EmojiCollectionViewCell.xib in Resources */,
+				9D536FB31ACBC98160CFB8C5297E4033 /* icomoon.ttf in Resources */,
+				A9A96547C0B9CC70A3CF6A1CF3DF8E86 /* LaunchScreen.storyboard in Resources */,
+				ECE986DA98949144AE599E114E161F2E /* PhotoCropEditorBorder.png in Resources */,
+				22083D23B25B1FA6B6EDAE33A01F43F3 /* PhotoCropEditorBorder@2x.png in Resources */,
+				8BBD921A8CBEB5C4739DFD2855A2B20D /* PhotoCropEditorBorder@3x.png in Resources */,
+				978E9AE6C8A3A246C302C19A898C80A9 /* PhotoEditorViewController.xib in Resources */,
+				D5A9F04C12BAC49DAA718B19823E924A /* StickerCollectionViewCell.xib in Resources */,
+				8F3575468FCC7ED41620A18FCBCBF184 /* StickersViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19EFF32569AD86B840D623634B7738A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DF520531B7C28D72F406E092512CADB /* CGFloat+IGRPhotoTweakExtension.swift in Sources */,
+				8DCDB5A15BA9EF0E2FD857837C96B41C /* CGImage+IGRPhotoTweakExtension.swift in Sources */,
+				AA2C77DA2742EEF01A2C4BA3C1CE579E /* CGPoint+IGRPhotoTweakExtension.swift in Sources */,
+				8B77F20238D4A8BFE0CDE97B40EB7324 /* IGRCropCornerLine.swift in Sources */,
+				86461E5BA3664E74A2BCF0D75170C247 /* IGRCropCornerView.swift in Sources */,
+				E90AA682832FC5C3D2C1B40ED2A49F89 /* IGRCropGridLine.swift in Sources */,
+				4E6DABBDFEB707A6A977F0E5822F148C /* IGRCropLine.swift in Sources */,
+				705F6EAF45498F7F9E705BD530EA8206 /* IGRCropMaskView.swift in Sources */,
+				913D2901CD113FDD3174CD943CCAB12A /* IGRCropView+AspectRatio.swift in Sources */,
+				588CA91FF3FA5AEA03C178E64ECCA1CC /* IGRCropView+Lines.swift in Sources */,
+				82906C22EB3C0AA5A92205529D26D009 /* IGRCropView+NSLayoutConstraint.swift in Sources */,
+				28E0558D61EC308987A46E44D3BE4041 /* IGRCropView+UITouch.swift in Sources */,
+				857A8CA2D798B52F5208E549CABDAB76 /* IGRCropView.swift in Sources */,
+				F86D3A05E7DA1B388686A6C4DD78E9F7 /* IGRPhotoContentView.swift in Sources */,
+				28648F56AC8F7C73E52BDCE7C989C6EA /* IGRPhotoScrollView.swift in Sources */,
+				1E345E4903ED9C4CE3C07DE9451137A2 /* IGRPhotoTweakConstants.swift in Sources */,
+				7FEC730DD8F8A7FFC88959F59716051D /* IGRPhotoTweaks-dummy.m in Sources */,
+				327BFFFAD9A5560D1F249F88DA0F6973 /* IGRPhotoTweakView+Angle.swift in Sources */,
+				091645D902937038F259C8FAF2B7EF50 /* IGRPhotoTweakView+AspectRatio.swift in Sources */,
+				08C93F2AC0F745B61EA6DAC69F9D11A1 /* IGRPhotoTweakView+Customization.swift in Sources */,
+				C71B793F2913B723AB65E0A12E90D15B /* IGRPhotoTweakView+IGRCropView.swift in Sources */,
+				8A8D2FD46A5674C457ABC8EFA5EC239E /* IGRPhotoTweakView+Mask.swift in Sources */,
+				3CA4CB731B48B33258D7066628259517 /* IGRPhotoTweakView+NSLayoutConstraint.swift in Sources */,
+				F93B1B133D7397D9C9281F403E41469F /* IGRPhotoTweakView+Touch.swift in Sources */,
+				38CA9D72FCDF0B4E397E4406ECB7598F /* IGRPhotoTweakView+UIScrollView.swift in Sources */,
+				0AE0AEEEFEEAA11E273C651F44A6D339 /* IGRPhotoTweakView.swift in Sources */,
+				13BF7C5F6CABD0A7CAAD3766A835864D /* IGRPhotoTweakViewController+Angle.swift in Sources */,
+				C84ECEB097B3B0E50E274264B6E142A4 /* IGRPhotoTweakViewController+AspectRatio.swift in Sources */,
+				47640703C2AAD8D80E208C6F8E06EA88 /* IGRPhotoTweakViewController+Customization.swift in Sources */,
+				40CB56B948982948C1B0A0E2677BADD2 /* IGRPhotoTweakViewController+PHPhotoLibrary.swift in Sources */,
+				41313CADC06DB288067472F6891AE3F9 /* IGRPhotoTweakViewController.swift in Sources */,
+				D872F476F129EC6B14F1B62353A163B9 /* IGRRadianAngle.swift in Sources */,
+				7B312A486376B6C98811673F5714471E /* UIColor+IGRPhotoTweakExtension.swift in Sources */,
+				75200008FB9CFEDB9A27AFC744A5B48F /* UIImage+IGRPhotoTweakExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39A2C8398A3B40F8789A7C1A0BFA8017 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1F24684C70512232E6F3136AB8DEDD1 /* ColorCollectionViewCell.swift in Sources */,
+				929ACED27ECBB334AF60003B77268799 /* ColorsCollectionViewDelegate.swift in Sources */,
+				0FFDF3D5E48443D8A0AB37884C4D4518 /* CropRectView.swift in Sources */,
+				36148101296437E3737248F388FB689B /* CropView.swift in Sources */,
+				AD0B94BF66B5161D68007030B45757FA /* CropViewController.swift in Sources */,
+				DC7B676301AB49BCF19148DB1A677834 /* EmojiCollectionViewCell.swift in Sources */,
+				072411FC4FFAEEC2E490EA613735B663 /* EmojisCollectionViewDelegate.swift in Sources */,
+				4447BBCF5E1DA0961C8D9BC41ED03174 /* GradientView.swift in Sources */,
+				83CEE00293ACCE13C33B2708F99441E7 /* iOSPhotoEditor-dummy.m in Sources */,
+				7B115EBF95F4F9CAD151E8068FD4E116 /* PhotoEditor+Controls.swift in Sources */,
+				59EA57A68F9A1BA3B3CCBAD415A027E1 /* PhotoEditor+Crop.swift in Sources */,
+				A5C2A3D6BC7FC6CAC2658B00C14C0AAF /* PhotoEditor+Drawing.swift in Sources */,
+				98FDFED680BB72922837C4383E58D5B3 /* PhotoEditor+Font.swift in Sources */,
+				87929A2F59DB5248F86A6C8879A1BBE0 /* PhotoEditor+Gestures.swift in Sources */,
+				BE813230C93635D7C86ED53D03176055 /* PhotoEditor+Keyboard.swift in Sources */,
+				7C933C94BC60344EB0E9826FECEFB3B9 /* PhotoEditor+StickersViewController.swift in Sources */,
+				3F666DDABDCF5D535CE2CCA0964AFB5B /* PhotoEditor+UITextView.swift in Sources */,
+				8B5C09645865265F8D9548C709B19B48 /* PhotoEditorViewController.swift in Sources */,
+				235A229BB8420644F892B1C20AE64666 /* Protocols.swift in Sources */,
+				29A0AC8D25B3E9C899A7DEF3B5EF4846 /* ResizeControl.swift in Sources */,
+				D5B81398FC15F4B36FFBA87B4151E4EB /* StickerCollectionViewCell.swift in Sources */,
+				8D056B9C4D22B5F24DBAA025AAFACC3E /* StickersViewController.swift in Sources */,
+				2ADCBDC301B7FACAB3ECB8E64909D96E /* UIImage+Crop.swift in Sources */,
+				C2AD8B55233BA0A62A4BA1862A0CA7FC /* UIImage+Size.swift in Sources */,
+				BE6ED67FC981FB3C737D11D07AAFAF23 /* UIImageView+Alpha.swift in Sources */,
+				5746384BE18C73F800082B9ACDE25545 /* UIView+Image.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F31BCB81AFF0EB801875857C1815774 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DA4FF61A2A109229392C8E8722F193F /* HorizontalDial-dummy.m in Sources */,
+				3DBE13819066A7504CE1479E7C86D5B8 /* HorizontalDial.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2308F46C1273DF6263DA9EF13348A8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0EDC63D50409480BDCE0721C57D432E /* Pods-ARKitFaceTrackingTutorial-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		053048D22E4BCF0E8B08E3ACC2F72A15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IGRPhotoTweaks;
+			target = 624EAFAC9D8C23C750C0C0B462D434C1 /* IGRPhotoTweaks */;
+			targetProxy = A376B0F5E796F389BF597EFA036E48D1 /* PBXContainerItemProxy */;
+		};
+		753503016C13038F246EED5FCBAA6658 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = iOSPhotoEditor;
+			target = 707750498984B8376E2CCAB25DD030AC /* iOSPhotoEditor */;
+			targetProxy = A7331A6530DCF4D836996F3D2CD1A38E /* PBXContainerItemProxy */;
+		};
+		AC719CACB7AFC6D438DDB54DA267762F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HorizontalDial;
+			target = E1F884CF54F28A0E2864327D81FA2EA7 /* HorizontalDial */;
+			targetProxy = 6D4981312312B13017859EE47C21601C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		160C14CC2A28658C16E56001A809DAD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B10A38DA3AFBA7F0E2D38926B00A77A4 /* Pods-ARKitFaceTrackingTutorial.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ARKitFaceTrackingTutorial/Pods-ARKitFaceTrackingTutorial-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ARKitFaceTrackingTutorial/Pods-ARKitFaceTrackingTutorial.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2E53CF192EED361BF968B2AF7B30CD66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38357737B8E03A0CBBAF31420E24281B /* Pods-ARKitFaceTrackingTutorial.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ARKitFaceTrackingTutorial/Pods-ARKitFaceTrackingTutorial-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ARKitFaceTrackingTutorial/Pods-ARKitFaceTrackingTutorial.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3B580FE2B848FF8B6E67563074977FDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E89483AAE4D8D45368B151D108F8C474 /* HorizontalDial.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HorizontalDial/HorizontalDial-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HorizontalDial/HorizontalDial-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/HorizontalDial/HorizontalDial.modulemap";
+				PRODUCT_MODULE_NAME = HorizontalDial;
+				PRODUCT_NAME = HorizontalDial;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		4C859C75578CF6E86A47A60DC113E63C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D04AA4BFADB011A31C4AB62465D20E75 /* IGRPhotoTweaks.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IGRPhotoTweaks/IGRPhotoTweaks-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IGRPhotoTweaks/IGRPhotoTweaks-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/IGRPhotoTweaks/IGRPhotoTweaks.modulemap";
+				PRODUCT_MODULE_NAME = IGRPhotoTweaks;
+				PRODUCT_NAME = IGRPhotoTweaks;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		92B703DA1A778AACE82A8B89A4A0D2F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3D07DB9BF3C351A8BDCAF6495B34906 /* iOSPhotoEditor.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/iOSPhotoEditor/iOSPhotoEditor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/iOSPhotoEditor/iOSPhotoEditor-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/iOSPhotoEditor/iOSPhotoEditor.modulemap";
+				PRODUCT_MODULE_NAME = iOSPhotoEditor;
+				PRODUCT_NAME = iOSPhotoEditor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AC7905D21DABE6AE150C1727FBCF9C9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3D07DB9BF3C351A8BDCAF6495B34906 /* iOSPhotoEditor.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/iOSPhotoEditor/iOSPhotoEditor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/iOSPhotoEditor/iOSPhotoEditor-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/iOSPhotoEditor/iOSPhotoEditor.modulemap";
+				PRODUCT_MODULE_NAME = iOSPhotoEditor;
+				PRODUCT_NAME = iOSPhotoEditor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E3B5B2D06CEB241EA338C72DE1970A4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E89483AAE4D8D45368B151D108F8C474 /* HorizontalDial.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HorizontalDial/HorizontalDial-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HorizontalDial/HorizontalDial-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/HorizontalDial/HorizontalDial.modulemap";
+				PRODUCT_MODULE_NAME = HorizontalDial;
+				PRODUCT_NAME = HorizontalDial;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FF70BB88CF8527AC8EDE1F60B68BF6CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D04AA4BFADB011A31C4AB62465D20E75 /* IGRPhotoTweaks.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IGRPhotoTweaks/IGRPhotoTweaks-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IGRPhotoTweaks/IGRPhotoTweaks-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/IGRPhotoTweaks/IGRPhotoTweaks.modulemap";
+				PRODUCT_MODULE_NAME = IGRPhotoTweaks;
+				PRODUCT_NAME = IGRPhotoTweaks;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15E598D61D231AF33F61F769D91357E1 /* Build configuration list for PBXNativeTarget "Pods-ARKitFaceTrackingTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				160C14CC2A28658C16E56001A809DAD1 /* Debug */,
+				2E53CF192EED361BF968B2AF7B30CD66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */,
+				3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BDF4A558FE2618D043CB69C4828522B /* Build configuration list for PBXNativeTarget "HorizontalDial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3B5B2D06CEB241EA338C72DE1970A4D /* Debug */,
+				3B580FE2B848FF8B6E67563074977FDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C762ABCFC653450626B04E9BBDDC78B /* Build configuration list for PBXNativeTarget "iOSPhotoEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC7905D21DABE6AE150C1727FBCF9C9F /* Debug */,
+				92B703DA1A778AACE82A8B89A4A0D2F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6C8C51B45B837C60AE9F78DDCB12492 /* Build configuration list for PBXNativeTarget "IGRPhotoTweaks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF70BB88CF8527AC8EDE1F60B68BF6CE /* Debug */,
+				4C859C75578CF6E86A47A60DC113E63C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
